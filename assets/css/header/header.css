@@ -1,0 +1,49 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 72px;
+}
+
+.logo {
+  background: url(../../images/logo.png) center / cover no-repeat;
+  height: 40px;
+  width: 100px;
+}
+
+.search__input {
+  background: url(../../images/search.svg) 854px center / 24px no-repeat;
+  height: 48px;
+  width: 902px;
+}
+
+.login {
+  height: 48px;
+  width: 109px;
+}
+
+.wishes {
+  height: 48px;
+  width: 123px;
+}
+
+.bag {
+  background: url(../../images/bag_shopping.svg) center / cover no-repeat;
+  border: 0 none;
+  height: 24px;
+  width: 24px;
+}
+
+.bag::after {
+  content: "0";
+  background-color: #e36305;
+  border-radius: 14px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  right: 6%;
+  top: 2%;
+  width: 20px;
+}
