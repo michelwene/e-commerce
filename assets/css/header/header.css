@@ -1,7 +1,8 @@
 .header {
   align-items: center;
   display: flex;
-  height: 72px;
+  justify-content: space-around;
+  height: 75px;
 }
 
 .logo {
@@ -12,12 +13,19 @@
 
 .search__input {
   background: url(../../images/search.svg) 854px center / 24px no-repeat;
+  border: 1px solid #9FA3A6;
+  border-radius: 4px;
   height: 48px;
+  padding-left: 20px;
   width: 902px;
 }
 
 .login {
+  font-weight: 700;
   height: 48px;
+  margin: 0px 8px;
+  text-align: center;
+  text-transform: uppercase;
   width: 109px;
 }
 
@@ -26,14 +34,15 @@
   width: 123px;
 }
 
-.bag {
+.bag button{
   background: url(../../images/bag_shopping.svg) center / cover no-repeat;
   border: 0 none;
   height: 24px;
   width: 24px;
+  
 }
 
-.bag::after {
+.bag::before {
   content: "0";
   background-color: #e36305;
   border-radius: 14px;
@@ -43,7 +52,7 @@
   height: 20px;
   line-height: 20px;
   position: absolute;
-  right: 6%;
+  text-align: center;
   top: 2%;
   width: 20px;
 }
