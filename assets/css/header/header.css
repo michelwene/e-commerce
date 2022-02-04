@@ -13,7 +13,7 @@
 
 .search__input {
   background: url(../../images/search.svg) 854px center / 24px no-repeat;
-  border: 1px solid #9FA3A6;
+  border: 1px solid #9fa3a6;
   border-radius: 4px;
   height: 48px;
   padding-left: 20px;
@@ -21,28 +21,45 @@
 }
 
 .login {
+  align-items: center;
+  background: url(../../images/user.svg) left center / 18px no-repeat;
+  display: flex;
+  font-size: 12px;
   font-weight: 700;
   height: 48px;
-  margin: 0px 8px;
-  text-align: center;
+  justify-content: center;
   text-transform: uppercase;
   width: 109px;
 }
 
+.login:hover {
+  cursor: pointer;
+}
+
 .wishes {
+  align-items: center;
+  background: url(../../images/wishlist.svg) left center / 18px no-repeat;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
   height: 48px;
+  justify-content: center;
+  text-transform: uppercase;
   width: 123px;
 }
 
-.bag button{
+.wishes:hover {
+  cursor: pointer;
+}
+
+.bag button {
   background: url(../../images/bag_shopping.svg) center / cover no-repeat;
   border: 0 none;
   height: 24px;
   width: 24px;
-  
 }
 
-.bag::before {
+.bag button::before {
   content: "0";
   background-color: #e36305;
   border-radius: 14px;
