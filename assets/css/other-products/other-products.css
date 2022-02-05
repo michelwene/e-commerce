@@ -1,0 +1,18 @@
+.otherProducts__title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 32px;
+}
+
+.otherProducts__title h2 {
+  font-size: 20;
+  font-weight: 600;
+}
+
+.otherProducts__title p {
+    color: #40B25C;
+    ;
+  font-size: 12;
+  font-weight: 700;
+  text-transform: uppercase;
+}

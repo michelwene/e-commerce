@@ -10,16 +10,17 @@
   font-size: 12px;
   font-weight: 500;
 }
-.category span:hover {
-  cursor: pointer;
-  text-decoration: underline;
+
+.category span:last-child {
+  color: #e36305;
+  font-weight: 600;
 }
 
 .category span:nth-child(even) {
   color: #9fa3a6;
 }
 
-.category span:last-child {
-  color: #e36305;
-  font-weight: 600;
+.category span:nth-child(odd):hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
