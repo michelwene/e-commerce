@@ -1,0 +1,25 @@
+.creator {
+    column-gap: 24px;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.creator div {
+  display: flex;
+  align-items: center;
+  color: #9fa3a6;
+  font-size: 12px;
+  font-weight: 600;
+  height: 20px;
+}
+
+.creator div:first-child {
+  background: url(../../images/vtex.svg) right / 56px 20px no-repeat;
+  width: 130px;
+}
+
+.creator div:nth-child(2) {
+  background: url(../../images/b8one.svg) right / 45px 20px no-repeat;
+  width: 145px;
+}

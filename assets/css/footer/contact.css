@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 156px;
+  row-gap: 16px;
+  width: 332px;
+}
+
+.contact input {
+  border: 0 none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  height: 48px;
+}
+
+.contact input:first-child {
+  background: url(../../images/phone.svg) 110px center / 18px no-repeat;
+  background-color: #40b25c;
+}
+
+.contact input:nth-child(2) {
+  background: url(../../images/message.svg) 80px center / 18px no-repeat;
+  background-color: #e36305;
+}
+
+.contact a {
+  align-self: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+.social-payment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+
+.payment {
+  margin-left: 32px;
+  width: 286px;
+}
+
+.payment ul {
+  justify-content: space-between;
+  display: flex;
+}
+
+.payment ul li {
+  height: 24px;
+  width: 34px;
+}
+
+.payment--mastercard {
+  background: url(../../images/mastercard.png) center / cover no-repeat;
+}
+
+.payment--visa {
+  background: url(../../images/visa.png) center / cover no-repeat;
+}
+
+.payment--amex {
+  background: url(../../images/amex.png) center / cover no-repeat;
+}
+
+.payment--dinersclub {
+  background: url(../../images/dinersclub.png) center / cover no-repeat;
+}
+
+.payment--paypal {
+  background: url(../../images/paypal.png) center / cover no-repeat;
+}
+
+.payment--googlepay {
+  background: url(../../images/googlepay.png) center / cover no-repeat;
+}
+
+.payment--applepay {
+  background: url(../../images/applepay.png) center / cover no-repeat;
+}

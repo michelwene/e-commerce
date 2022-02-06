@@ -1,0 +1,22 @@
+.copyright {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  row-gap: 28px;
+}
+
+.copyright__title {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.copyright__description {
+  color: #cfd1d2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0 206px;
+  text-align: center;
+}

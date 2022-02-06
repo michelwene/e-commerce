@@ -1,0 +1,24 @@
+.social {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  margin-right: 195px;
+  width: 122px;
+}
+
+.social button {
+  width: 40px;
+  border: 0 none;
+}
+
+.social--facebook {
+  background: url(../../images/facebook.svg) center / 12px no-repeat;
+}
+
+.social--instagram {
+  background: url(../../images/instagram.svg) center / 18px no-repeat;
+}
+
+.social--twitter {
+  background: url(../../images/twitter.svg) center / 18px 15px no-repeat;
+}
