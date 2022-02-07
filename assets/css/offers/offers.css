@@ -1,0 +1,41 @@
+.offers {
+  align-items: center;
+  background-color: #40b25c;
+  display: flex;
+  height: 112px;
+  justify-content: center;
+}
+
+.offers__title {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-right: 64px;
+}
+
+.offers__email {
+  border: 0 none;
+  border-radius: 4px;
+  height: 48px;
+  width: 561px;
+}
+
+.offers__email::placeholder {
+  background: url(../../images/icon-email.svg) 23px center / 26px 18px no-repeat;
+  color: #9fa3a6;
+  font-size: 16px;
+  font-weight: 500px;
+  padding-left: 64px;
+}
+
+.offers__submit {
+  background-color: #e36305;
+  border: 0 none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  height: 48px;
+  margin-left: 16px;
+  text-transform: uppercase;
+  width: 119px;
+}

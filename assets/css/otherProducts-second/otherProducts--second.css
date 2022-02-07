@@ -1,0 +1,54 @@
+.otherProducts--second {
+  height: 440px;
+  margin: 0px 32px;
+}
+
+.otherProducts__products {
+  column-gap: 16px;
+  display: flex;
+  margin-top: 16px;
+}
+
+.otherProducts__product {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.product__name {
+  color: #030303;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product__price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.discount {
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.product__discount {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product__installment {
+  color: #40464d;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.carousel-control-prev {
+  justify-content: flex-end;
+}

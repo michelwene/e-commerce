@@ -1,0 +1,11 @@
+.departments::before {
+  background-color: #000;
+  border-radius: 50%;
+  content: "";
+  height: 48px;
+  opacity: 0.5;
+  position: absolute;
+  width: 48px;
+  z-index: -1;
+}
+

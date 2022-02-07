@@ -1,0 +1,39 @@
+.about {
+  height: 432px;
+  margin: 46px 380px 64px 32px;
+  margin-top: 46px;
+  margin-right: 380px;
+}
+
+.about__title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.about__description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about__description p {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.about__description span {
+  font-weight: 400;
+}
+
+.about__list {
+  margin: 20px 0;
+}
+
+.about__from {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.about__from a {
+  text-decoration: none;
+}
