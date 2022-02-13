@@ -81,49 +81,63 @@
         </ol>
       </nav>
     </div>
+
     <main class="products">
-      <div>
-        <img src="" alt="" />
+      <div class="product__image">
+        <img src="./assets/images/notebook.png" alt="notebook" />
         <p>Roll over image to zoom in</p>
       </div>
-      <aside>
-        <div>
+      <aside class="product__info">
+        <div class="info__name">
           <p>
             Apple 13.3" MacBook Pro, 2.6GHz Intel Core i7 6 Core 9th Gen (Late
             2019, Space Gray)
           </p>
-          <div>
-            <span>Ref: 000000</span>
-            <span>read full description</span>
+          <div class="product__code">
+            <span class="code__product">Ref: 000000</span>
+            <span class="description__product">read full description</span>
           </div>
         </div>
-        <div>
-          <div>
-            <div>
-              <p>Color: Space Gray</p>
-              <input type="checkbox" />
-              <input type="checkbox" />
-              <input type="checkbox" />
+        <div class="product__purchases">
+          <div class="options">
+            <div class="options__colors">
+              <p class="color__select">Color: Space Gray</p>
+              <div>
+                <input type="button" class="select__color" />
+                <input type="button" class="select__color" />
+                <input type="button" class="select__color" />
+              </div>
             </div>
-            <div>
-              <p>Screen Size:</p>
-              <input type="checkbox" />
-              <input type="checkbox" />
-              <input type="checkbox" />
+            <div class="options__size">
+              <p class="size">Screen Size:</p>
+
+              <div>
+                <input type="button" value="13,3''" class="select__size" />
+                <input type="button" value="18''" class="select__size" />
+                <input type="button" value="21''" class="select__size" />
+              </div>
             </div>
-            <div>
+            <div class="options__delivery">
               <p>Shipping</p>
               <p>Receive or pickup your products!</p>
               <p>See shipping options</p>
             </div>
           </div>
-          <div>
-            <div>
-              <span>$ 3,199.00</span>
-              <span>$ 3,600.00</span>
-              <span>SAVE $ 0</span>
+          <div class="payments">
+            <div class="payments__value">
+              <span class="value__discount">$ 3,199.00</span>
+              <span class="value__price">$ 3,600.00</span>
+              <span class="save">SAVE $ 0</span>
             </div>
-            <div></div>
+            <div>
+              <img
+                src="./assets/images/less.svg"
+                alt="
+              withdraw item"
+              />
+              <p>01</p>
+              <img src="./assets/images/more.svg" alt="add item" />
+            </div>
             <div>
               <button>add to cart</button>
               <button>buy now</button>

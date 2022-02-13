@@ -1,3 +1,117 @@
 .products {
+  display: flex;
   height: 560px;
+  justify-content: space-between;
+}
+
+.product__info {
+  width: 45%;
+  margin: 48px 32px 0 0;
+}
+
+.product__image {
+  margin: 24px 0 0 32px;
+}
+
+.product__image p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.info__name p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info__name p::before {
+  content: "Apple";
+  color: #40b25c;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 190px;
+}
+
+.product__code {
+  display: flex;
+  justify-content: space-between;
+}
+
+.code__product {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.description__product {
+  color: #40b25c;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.product__purchases {
+  column-gap: 32px;
+  display: flex;
+  margin-top: 24px;
+}
+
+.options__colors {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+
+.options__colors > div {
+  display: flex;
+  column-gap: 16px;
+}
+
+.select__color {
+  border: 0 none;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.select__color:nth-child(1) {
+  background-color: #595961;
+}
+
+.select__color:nth-child(2) {
+  background-color: #ffd1c2;
+}
+
+.select__color:nth-child(3) {
+  background-color: #c8c8cf;
+}
+
+.select__color:hover {
+  border: 1px solid #333;
+}
+
+.options__size > div {
+  column-gap: 12px;
+  display: flex;
+  padding-bottom: 52px;
+}
+
+.size {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.select__size {
+  background-color: #ffffff;
+  border: 1px solid #cfd1d2;
+  border-radius: 4px;
+  height: 48px;
+  width: 83px;
+}
+
+.options__delivery{
+  border: 1px solid #E9E9E9;
+  height: 112px;
 }
